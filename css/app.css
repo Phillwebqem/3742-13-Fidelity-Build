@@ -1,0 +1,23 @@
+
+.w-module-video {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.w-module-video-icon {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.accordion .accordion-item .w-acc-close {
+	display: none;
+}
+
+.accordion .accordion-item.is-active .w-acc-close {
+	display: block;
+}
+.accordion .accordion-item.is-active .w-acc-open {
+	display: none;
+}
